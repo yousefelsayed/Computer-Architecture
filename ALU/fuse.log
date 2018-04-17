@@ -1,0 +1,35 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/yousef/Downloads/Compressed/ALU/ALU/ALUTest_isim_beh.exe -prj C:/Users/yousef/Downloads/Compressed/ALU/ALU/ALUTest_beh.prj work.ALUTest 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/yousef/Downloads/Compressed/ALU/ALU/MyPackage.vhd" into library work
+Parsing VHDL file "C:/Users/yousef/Downloads/Compressed/ALU/ALU/MUX4x1.vhd" into library work
+Parsing VHDL file "C:/Users/yousef/Downloads/Compressed/ALU/ALU/MUX2x1.vhd" into library work
+Parsing VHDL file "C:/Users/yousef/Downloads/Compressed/ALU/ALU/another_package.vhd" into library work
+Parsing VHDL file "C:/Users/yousef/Downloads/Compressed/ALU/ALU/adder_bit.vhd" into library work
+Parsing VHDL file "C:/Users/yousef/Downloads/Compressed/ALU/ALU/ALU_bit.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/yousef/Downloads/Compressed/ALU/ALU/ALU_bit.vhd" Line 58: Actual for formal port i2 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/yousef/Downloads/Compressed/ALU/ALU/ALU_bit.vhd" Line 62: Actual for formal port i0 is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/yousef/Downloads/Compressed/ALU/ALU/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/yousef/Downloads/Compressed/ALU/ALU/test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package mypackage
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package package1
+Compiling architecture behavioral of entity MUX2x1 [mux2x1_default]
+Compiling architecture behavioral of entity adder_bit [adder_bit_default]
+Compiling architecture behavioral of entity MUX4x1 [mux4x1_default]
+Compiling architecture behavioral of entity ALU_bit [alu_bit_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavior of entity alutest
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 17 VHDL Units
+Built simulation executable C:/Users/yousef/Downloads/Compressed/ALU/ALU/ALUTest_isim_beh.exe
+Fuse Memory Usage: 34352 KB
+Fuse CPU Usage: 905 ms

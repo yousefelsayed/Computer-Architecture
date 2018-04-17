@@ -1,0 +1,3 @@
+work	"ALU.vhd"
+work	"ALU_bit.vhd"
+work	"MyPackage.vhd"

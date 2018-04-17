@@ -1,0 +1,3 @@
+vhdl isim_temp "MyPackage.vhd"
+vhdl isim_temp "ALU_bit.vhd"
+vhdl isim_temp "ALU.vhd"

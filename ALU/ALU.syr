@@ -1,0 +1,382 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.59 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.60 secs
+ 
+--> Reading design: ALU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ALU.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ALU"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : ALU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\yousef\Downloads\Compressed\ALU\ALU\MyPackage.vhd" into library work
+Parsing package <MyPackage>.
+Parsing VHDL file "C:\Users\yousef\Downloads\Compressed\ALU\ALU\MUX4x1.vhd" into library work
+Parsing entity <MUX4x1>.
+Parsing architecture <Behavioral> of entity <mux4x1>.
+Parsing VHDL file "C:\Users\yousef\Downloads\Compressed\ALU\ALU\MUX2x1.vhd" into library work
+Parsing entity <MUX2x1>.
+Parsing architecture <Behavioral> of entity <mux2x1>.
+Parsing VHDL file "C:\Users\yousef\Downloads\Compressed\ALU\ALU\another_package.vhd" into library work
+Parsing package <package1>.
+Parsing VHDL file "C:\Users\yousef\Downloads\Compressed\ALU\ALU\adder_bit.vhd" into library work
+Parsing entity <adder_bit>.
+Parsing architecture <Behavioral> of entity <adder_bit>.
+Parsing VHDL file "C:\Users\yousef\Downloads\Compressed\ALU\ALU\ALU_bit.vhd" into library work
+Parsing entity <ALU_bit>.
+Parsing architecture <Behavioral> of entity <alu_bit>.
+WARNING:HDLCompiler:946 - "C:\Users\yousef\Downloads\Compressed\ALU\ALU\ALU_bit.vhd" Line 56: Actual for formal port i2 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\yousef\Downloads\Compressed\ALU\ALU\ALU_bit.vhd" Line 60: Actual for formal port i2 is neither a static name nor a globally static expression
+Parsing VHDL file "C:\Users\yousef\Downloads\Compressed\ALU\ALU\ALU.vhd" into library work
+Parsing entity <ALU>.
+Parsing architecture <Behavioral> of entity <alu>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <ALU> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ALU_bit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MUX2x1> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <adder_bit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MUX4x1> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ALU>.
+    Related source file is "C:\Users\yousef\Downloads\Compressed\ALU\ALU\ALU.vhd".
+    Summary:
+Unit <ALU> synthesized.
+
+Synthesizing Unit <ALU_bit>.
+    Related source file is "C:\Users\yousef\Downloads\Compressed\ALU\ALU\ALU_bit.vhd".
+    Summary:
+	no macro.
+Unit <ALU_bit> synthesized.
+
+Synthesizing Unit <MUX2x1>.
+    Related source file is "C:\Users\yousef\Downloads\Compressed\ALU\ALU\MUX2x1.vhd".
+    Found 1-bit tristate buffer for signal <OO> created at line 42
+    Summary:
+	inferred   1 Multiplexer(s).
+	inferred   1 Tristate(s).
+Unit <MUX2x1> synthesized.
+
+Synthesizing Unit <adder_bit>.
+    Related source file is "C:\Users\yousef\Downloads\Compressed\ALU\ALU\adder_bit.vhd".
+    Found 2-bit adder for signal <n0012> created at line 46.
+    Found 2-bit adder for signal <tmp> created at line 46.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+Unit <adder_bit> synthesized.
+
+Synthesizing Unit <MUX4x1>.
+    Related source file is "C:\Users\yousef\Downloads\Compressed\ALU\ALU\MUX4x1.vhd".
+    Found 1-bit 4-to-1 multiplexer for signal <_n0013> created at line 45.
+    Found 1-bit tristate buffer for signal <O> created at line 45
+    Summary:
+	inferred   1 Multiplexer(s).
+	inferred   1 Tristate(s).
+Unit <MUX4x1> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 64
+ 2-bit adder                                           : 64
+# Multiplexers                                         : 64
+ 1-bit 2-to-1 multiplexer                              : 32
+ 1-bit 4-to-1 multiplexer                              : 32
+# Tristates                                            : 64
+ 1-bit tristate buffer                                 : 64
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 32
+ 2-bit adder carry in                                  : 32
+# Multiplexers                                         : 32
+ 1-bit 4-to-1 multiplexer                              : 32
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2042 - Unit ALU: 64 internal tristates are replaced by logic (pull-up yes): B1/tb, B10/tb, B11/tb, B12/tb, B13/tb, B14/tb, B15/tb, B16/tb, B17/tb, B18/tb, B19/tb, B2/tb, B20/tb, B21/tb, B22/tb, B23/tb, B24/tb, B25/tb, B26/tb, B27/tb, B28/tb, B29/tb, B3/tb, B30/tb, B31/tb, B32/tb, B4/tb, B5/tb, B6/tb, B7/tb, B8/tb, B9/tb, N34, N35, N36, N37, N38, N39, N40, N41, N42, N43, N44, N45, N46, N47, N48, N49, N50, N51, N52, N53, N54, N55, N56, N57, N58, N59, N60, N61, N62, N63, N64, N65.
+
+Optimizing unit <ALU> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ALU, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : ALU.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 122
+#      LUT2                        : 1
+#      LUT3                        : 1
+#      LUT4                        : 1
+#      LUT5                        : 36
+#      LUT6                        : 83
+# IO Buffers                       : 104
+#      IBUF                        : 69
+#      OBUF                        : 3
+#      OBUFT                       : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                  122  out of  63400     0%  
+    Number used as Logic:               122  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    122
+   Number with an unused Flip Flop:     122  out of    122   100%  
+   Number with an unused LUT:             0  out of    122     0%  
+   Number of fully used LUT-FF pairs:     0  out of    122     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         104
+ Number of bonded IOBs:                 104  out of    210    49%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 12.542ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 8784 / 35
+-------------------------------------------------------------------------
+Delay:               12.542ns (Levels of Logic = 21)
+  Source:            aluop<2> (PAD)
+  Destination:       oflag (PAD)
+
+  Data Path: aluop<2> to oflag
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            65   0.001   0.795  aluop_2_IBUF (aluop_2_IBUF)
+     LUT6:I1->O            2   0.097   0.688  B2/adder/Madd_tmp_Madd_lut<0>1 (B2/adder/Madd_tmp_Madd_lut<0>)
+     LUT5:I0->O            3   0.097   0.521  B2/adder/Madd_tmp_Madd_cy<0>11 (B2/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            3   0.097   0.521  B4/adder/Madd_tmp_Madd_cy<0>11 (B4/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            3   0.097   0.521  B6/adder/Madd_tmp_Madd_cy<0>11 (B6/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            3   0.097   0.566  B8/adder/Madd_tmp_Madd_cy<0>11 (B8/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I1->O            2   0.097   0.515  B9/adder/Madd_tmp_Madd_cy<0>11 (B9/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            3   0.097   0.521  B11/adder/Madd_tmp_Madd_cy<0>11 (B11/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            3   0.097   0.521  B13/adder/Madd_tmp_Madd_cy<0>11 (B13/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            3   0.097   0.521  B15/adder/Madd_tmp_Madd_cy<0>11 (B15/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            3   0.097   0.521  B17/adder/Madd_tmp_Madd_cy<0>11 (B17/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            3   0.097   0.521  B19/adder/Madd_tmp_Madd_cy<0>11 (B19/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            3   0.097   0.521  B21/adder/Madd_tmp_Madd_cy<0>11 (B21/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            3   0.097   0.521  B23/adder/Madd_tmp_Madd_cy<0>11 (B23/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            3   0.097   0.521  B25/adder/Madd_tmp_Madd_cy<0>11 (B25/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            3   0.097   0.521  B27/adder/Madd_tmp_Madd_cy<0>11 (B27/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            4   0.097   0.525  B29/adder/Madd_tmp_Madd_cy<0>11 (B29/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I2->O            2   0.097   0.561  B31/adder/Madd_tmp_Madd_cy<0>11 (B31/adder/Madd_tmp_Madd_cy<0>)
+     LUT5:I1->O            2   0.097   0.515  B32/adder/Madd_tmp_Madd_cy<0>11 (B32/adder/Madd_tmp_Madd_cy<0>)
+     LUT6:I3->O            1   0.097   0.279  Mxor_oflag_xo<0>1 (oflag_OBUF)
+     OBUF:I->O                 0.000          oflag_OBUF (oflag)
+    ----------------------------------------
+    Total                     12.542ns (1.844ns logic, 10.698ns route)
+                                       (14.7% logic, 85.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.26 secs
+ 
+--> 
+
+Total memory usage is 411568 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
