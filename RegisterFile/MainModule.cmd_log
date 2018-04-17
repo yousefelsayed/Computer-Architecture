@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/khairy/Desktop/Universty/Third year/Second Term/computer Architecture/Project/np/np/MainModule.xst" -ofn "C:/Users/khairy/Desktop/Universty/Third year/Second Term/computer Architecture/Project/np/np/MainModule.syr" 
+xst -intstyle ise -ifn "C:/Users/khairy/Desktop/Universty/Third year/Second Term/computer Architecture/Project/np/np/MainModule.xst" -ofn "C:/Users/khairy/Desktop/Universty/Third year/Second Term/computer Architecture/Project/np/np/MainModule.syr" 
+xst -intstyle ise -ifn "C:/Users/khairy/Desktop/Universty/Third year/Second Term/computer Architecture/Project/np/np/MainModule.xst" -ofn "C:/Users/khairy/Desktop/Universty/Third year/Second Term/computer Architecture/Project/np/np/MainModule.syr" 

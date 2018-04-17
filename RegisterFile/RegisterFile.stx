@@ -1,0 +1,102 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/khairy/Desktop/Universty/Third year/Second Term/computer Architecture/Project/np/np/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.75 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/khairy/Desktop/Universty/Third year/Second Term/computer Architecture/Project/np/np/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.75 secs
+ 
+--> Reading design: RegisterFile.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\reg32_1.vhd" into library work
+Parsing entity <reg32_1>.
+Parsing architecture <Behavioral> of entity <reg32_1>.
+Parsing VHDL file "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\MYPackage2.vhd" into library work
+Parsing package <MYPackage2>.
+Parsing VHDL file "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\MUX.vhd" into library work
+Parsing entity <MUX>.
+Parsing architecture <Behavioral> of entity <mux>.
+Parsing VHDL file "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\GenericReg.vhd" into library work
+Parsing entity <reg>.
+Parsing architecture <Behavioral> of entity <reg>.
+Parsing VHDL file "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\DEC.vhd" into library work
+Parsing entity <DEC>.
+Parsing architecture <Behavioral> of entity <dec>.
+Parsing VHDL file "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" into library work
+Parsing entity <RegisterFile>.
+Parsing architecture <Behavioral> of entity <registerfile>.
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 115: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 116: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 117: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 118: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 119: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 120: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 121: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 122: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 123: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 124: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 125: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 126: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 127: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 128: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 129: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 130: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 131: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 132: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 133: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 134: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 135: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 136: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 137: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 138: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 139: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 140: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 141: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 142: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 143: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 144: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\khairy\Desktop\Universty\Third year\Second Term\computer Architecture\Project\np\np\RegisterFile.vhd" Line 145: Actual for formal port lod is neither a static name nor a globally static expression
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.40 secs
+ 
+--> 
+
+Total memory usage is 263332 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   31 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/np/main1.xst" -ofn "E:/np/main1.syr" 

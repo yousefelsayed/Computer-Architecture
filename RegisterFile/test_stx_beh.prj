@@ -1,0 +1,5 @@
+vhdl isim_temp "news.vhd"
+vhdl isim_temp "InstMem.V3.vhd"
+vhdl isim_temp "GenericReg.vhd"
+vhdl isim_temp "main1.vhd"
+vhdl isim_temp "test.vhd"

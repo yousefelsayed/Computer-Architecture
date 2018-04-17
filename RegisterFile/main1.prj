@@ -1,0 +1,4 @@
+vhdl work "news.vhd"
+vhdl work "InstMem.V3.vhd"
+vhdl work "GenericReg.vhd"
+vhdl work "main1.vhd"
